@@ -1,6 +1,6 @@
 // Java code to illustrate Addition operator
  
- 
+
 class operations {
     public static void main(String[] args)
     {
