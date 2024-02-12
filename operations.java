@@ -5,7 +5,7 @@ public class operations {
    public operations() {
    }
 
-   public static void main(String[] var0) {
+   public static void main(String[] args) {
       Scanner var1 = new Scanner(System.in);
       System.out.println("Enter two numbers:");
       double var2 = var1.nextDouble();
