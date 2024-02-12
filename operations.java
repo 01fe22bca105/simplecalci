@@ -1,23 +1,23 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
 import java.util.Scanner;
 
 public class operations {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+   public operations() {
+   }
 
-        System.out.println("Enter two numbers:");
-        double num1 = scanner.nextDouble();
-        double num2 = scanner.nextDouble();
-
-        double sum = num1 + num2;
-        double difference = num1 - num2;
-        double product = num1 * num2;
-        double quotient = num1 / num2;
-
-        System.out.println("Sum: " + sum);
-        System.out.println("Difference: " + difference);
-        System.out.println("Product: " + product);
-        System.out.println("Quotient: " + quotient);
-
-        scanner.close();
-    }
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.println("Enter two numbers:");
+      double var2 = var1.nextDouble();
+      double var4 = var1.nextDouble();
+      double var6 = var2 + var4;
+      double var8 = var2 - var4;
+      double var10 = var2 * var4;
+      double var12 = var2 / var4;
+      System.out.println("Sum: " + var6);
+      System.out.println("Difference: " + var8);
+      System.out.println("Product: " + var10);
+      System.out.println("Quotient: " + var12);
+      var1.close();
+   }
 }
