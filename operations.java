@@ -1,23 +1,18 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
-import java.util.Scanner;
-
-public class operations {
-   public operations() {
-   }
-
-   public static void main(String[] var0) {
-      Scanner var1 = new Scanner(System.in);
-      System.out.println("Enter two numbers:");
-      double var2 = var1.nextDouble();
-      double var4 = var1.nextDouble();
-      double var6 = var2 + var4;
-      double var8 = var2 - var4;
-      double var10 = var2 * var4;
-      double var12 = var2 / var4;
-      System.out.println("Sum: " + var6);
-      System.out.println("Difference: " + var8);
-      System.out.println("Product: " + var10);
-      System.out.println("Quotient: " + var12);
-      var1.close();
-   }
+// Java code to illustrate Addition operator
+ 
+ 
+class operations {
+    public static void main(String[] args)
+    {
+        // initializing variables
+        int num1 = 10, num2 = 20, sum = 0;
+ 
+        // Displaying num1 and num2
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+ 
+        // adding num1 and num2
+        sum = num1 + num2;
+        System.out.println("The sum = " + sum);
+    }
 }
